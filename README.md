@@ -22,7 +22,7 @@ This work is significant because grasping is not a typical skill for social huma
   - Calibrated simulated cameras to match real Pepper
  
 <div align="center">
-  <img src="grasp.png" width="600"/>
+  <img src="grasp.png" width="500"/>
 </div>
 
 ---
