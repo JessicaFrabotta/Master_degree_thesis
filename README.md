@@ -47,7 +47,7 @@ The grasping system is fully **modular** and developed in **Python**.
 5. **Inverse Kinematics** executes the grasp.
 
 <div align="center">
-  <img src="architecture.png" width="900"/>
+  <img src="architecture.png" width="1000"/>
 </div>
 
 ---
