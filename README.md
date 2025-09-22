@@ -1,4 +1,5 @@
-# Grasping System for Humanoid Robots
+# Design and Implementation of a Novel Grasping System for a Humanoid Robot in QiBullet Simulator
+
 
 This project focuses on the design and implementation of a grasping system for unknown objects using a humanoid robot within the **QiBullet simulator**.  
 The system enables a **Softbank Robotics Pepper robot** to detect, localize, and grasp objects without requiring additional markers or sensors beyond its default hardware.
