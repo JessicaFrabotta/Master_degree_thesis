@@ -55,7 +55,7 @@ The grasping system is fully **modular** and developed in **Python**.
 ## 📊 Results
 - **25 simulations** were conducted.  
 - A grasp was considered successful if Pepper could reach and lift the bottle.  
-- **Success rate: 72%** 🎉
+- **Success rate: 72%**
 
 While the simulator lacks real-world variability (lighting, noise), the system showed strong **robustness and reliability**, making it suitable for future real-world testing on the physical Pepper robot.  
 
