@@ -19,7 +19,11 @@ This work is significant because grasping is not a typical skill for social huma
 
 - **Simulator**: **QiBullet** (based on Bullet physics engine)  
   - Simulates gravity, friction, and physical interactions  
-  - Calibrated simulated cameras to match real Pepper  
+  - Calibrated simulated cameras to match real Pepper
+ 
+<div align="center">
+  <img src="project_images/grasp.png" alt="Stop_Detection" width="600"/>
+</div>
 
 ---
 
