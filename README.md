@@ -1,4 +1,5 @@
-# Pepper Grasping System in QiBullet Simulator
+# Design and Implementation of a Novel Grasping System for a Humanoid Robot in QiBullet Simulator
+
 
 ## 📖 Project Overview
 This thesis presents the design and implementation of a **grasping system** for the **Softbank Robotics Pepper humanoid robot** within the **QiBullet simulator**.  
