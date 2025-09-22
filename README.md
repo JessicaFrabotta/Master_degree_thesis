@@ -33,6 +33,8 @@ The grasping system is fully **modular** and developed in **Python**.
 - **Path Planning** → Optimizes the robot’s arm trajectory (position, orientation, and distance) to achieve the best grasping pose.  
 - **Inverse Kinematics** → Implemented using the **Playful Kinematics** framework. Computes joint configurations for Pepper’s **arms and lower body** to ensure efficient and natural movements.
 
+---
+
 ## 🔄 System Workflow
 1. Pepper rotates to detect a target object (a small bottle on a table).  
 2. **Forehead camera** captures images at 15 FPS → sent to a Flask server for detection and depth estimation.  
