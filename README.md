@@ -44,7 +44,11 @@ The grasping system is fully **modular** and developed in **Python**.
 2. **Forehead camera** captures images at 15 FPS → sent to a Flask server for detection and depth estimation.  
 3. Once closer, the **mouth camera** provides detailed close-range images → processed again for improved accuracy.  
 4. **Path Planning** adjusts robot’s position and orientation.  
-5. **Inverse Kinematics** executes the grasp.  
+5. **Inverse Kinematics** executes the grasp.
+
+<div align="center">
+  <img src="architecture.png" width="500"/>
+</div>
 
 ---
 
