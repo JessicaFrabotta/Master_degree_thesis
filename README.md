@@ -10,18 +10,6 @@ This work is significant because grasping is not a typical skill for social huma
 
 ---
 
-## ⚙️ Technical Framework
-The grasping system is fully **modular** and developed in **Python**.  
-
-### 🔑 Key Modules
-- **Object Detection** → YOLOv10 (small version) is used to identify and outline target objects in images from Pepper’s cameras.  
-- **Depth Estimation** → Monocular approach with **Depth Anything V2**, generating a depth map from a single image.  
-- **Coordinate Mapping** → Transforms 2D image coordinates into the robot’s **3D base coordinate system**.  
-- **Path Planning** → Optimizes the robot’s arm trajectory (position, orientation, and distance) to achieve the best grasping pose.  
-- **Inverse Kinematics** → Implemented using the **Playful Kinematics** framework. Computes joint configurations for Pepper’s **arms and lower body** to ensure efficient and natural movements.
-
----
-
 ## 🤖 Robot and Simulator
 - **Robot**: Softbank Robotics **Pepper**  
   - 20 Degrees of Freedom (DOF)  
@@ -34,6 +22,16 @@ The grasping system is fully **modular** and developed in **Python**.
   - Calibrated simulated cameras to match real Pepper  
 
 ---
+
+## ⚙️ Technical Framework
+The grasping system is fully **modular** and developed in **Python**.  
+
+### 🔑 Key Modules
+- **Object Detection** → YOLOv10 (small version) is used to identify and outline target objects in images from Pepper’s cameras.  
+- **Depth Estimation** → Monocular approach with **Depth Anything V2**, generating a depth map from a single image.  
+- **Coordinate Mapping** → Transforms 2D image coordinates into the robot’s **3D base coordinate system**.  
+- **Path Planning** → Optimizes the robot’s arm trajectory (position, orientation, and distance) to achieve the best grasping pose.  
+- **Inverse Kinematics** → Implemented using the **Playful Kinematics** framework. Computes joint configurations for Pepper’s **arms and lower body** to ensure efficient and natural movements.
 
 ## 🔄 System Workflow
 1. Pepper rotates to detect a target object (a small bottle on a table).  
