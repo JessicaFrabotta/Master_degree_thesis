@@ -12,9 +12,6 @@ This work is significant because grasping is not a typical skill for social huma
 
 ## ⚙️ Technical Framework
 The grasping system is fully **modular** and developed in **Python**.  
-All components run on a laptop with:
-- **Intel Core i9** processor  
-- **NVIDIA RTX 4060 GPU**  
 
 ### 🔑 Key Modules
 - **Object Detection** → YOLOv10 (small version) is used to identify and outline target objects in images from Pepper’s cameras.  
