@@ -68,3 +68,9 @@ The **modular design** also allows adaptation to other humanoid platforms.
 - Extend modular framework to **other humanoid robots**.  
 
 ---
+
+## 🎥 Demonstrations  
+
+Full [demo video](https://drive.google.com/file/d/1-bnVR9A43_qvN2H7tZ9QyVUDxzcZhbbf/view)
+
+---
